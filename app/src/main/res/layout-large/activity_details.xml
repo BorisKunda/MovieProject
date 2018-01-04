@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="com.happytrees.movieproject.Details">
+
+    <EditText
+        android:id="@+id/titleId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:hint="Title"
+        android:textColor="#030303"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/bodyId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/titleId"
+        android:layout_marginTop="55dp"
+        android:ems="32"
+        android:hint="Overview"
+        android:textColor="#030303"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/URLid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editableImage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="44dp"
+        android:ems="15"
+        android:hint="image url"
+        android:textColor="#030303"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/editableImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="save"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="cancel"
+        android:id="@+id/cancelBtn"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/showId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/URLid"
+        android:layout_alignParentRight="true"
+        android:text="show"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
