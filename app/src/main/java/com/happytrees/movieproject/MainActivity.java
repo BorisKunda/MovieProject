@@ -20,7 +20,6 @@ import android.widget.Button;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
-///PROJECT HAS ONE BUG YET TO BE FIXED --> IF DETAILS ACTIVITY IS SAVED WITH ONLY NAME FIELD FILLED THERE WILL BE CRASH AND APP WOULD REQUIRE UNINSTALL
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
