@@ -73,7 +73,7 @@ public class Details extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                if (edtTitle.length() != 0) {//edit text not empty
+                if (edtTitle.length() != 0&&edtOverview.length()!=0&&edtImageUrl.length()!=0) {//edit text not empty
 
                     if (keyPassed.equals("FromMain")) {//"FromMain" means Intent from Main Activity
                         //UPDATE
@@ -100,7 +100,7 @@ public class Details extends AppCompatActivity {
                     }
 
                 } else {//edit text empty
-                    Toast.makeText(Details.this, "you forgot to fill title", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Details.this, "you forgot to fill one of fields", Toast.LENGTH_SHORT).show();
                 }
 
             }
