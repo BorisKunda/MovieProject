@@ -89,8 +89,8 @@ public class MainActivity extends AppCompatActivity {
             /*
                column num        |    0    |      1     |      2        |        3         |
              column name         |    ID   |    TITLE   |  OVERVIEW     |     IMAGEURL     |
-             Deadpool            |  0      |  Deadpool  |deadpool blala |deadpool.img      |
-             DarkKnight          | 1       | DarkKnight |darknight bla  |darkkoght.img     |
+             Deadpool            |    0    |  Deadpool  |deadpool blala |deadpool.img      |
+             DarkKnight          |    1    | DarkKnight |darknight bla  |darkkoght.img     |
 
              */
             String title = data.getString(1);//column 1 --> title column
